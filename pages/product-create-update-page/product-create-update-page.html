@@ -9,7 +9,30 @@
 <body>
     <include id='header' src="../../components/header/header-component.html"></include>
   
-    <h2>Hello home</h2>
+    <div class="content h-screen flex items-center justify-center">
+        <form class="w-[400px] p-3 space-y-1">
+            <h2 class="font-medium text-4xl text-center">Create product</h2>
+            <p>Brand</p>
+            <input type="text" class="w-full bg-white border border-gray-400 rounded-md px-1 py-2">
+            <p>Model</p>
+            <input type="text" class="w-full bg-white border border-gray-400 rounded-md px-1 py-2">
+            <p>Category</p>
+            <input type="text" class="w-full bg-white border border-gray-400 rounded-md px-1 py-2">
+            <p>Description</p>
+            <textarea class="border bg-white border w-full h-[60px] rounded-md" cols="5" name="" id=""></textarea>
+            <p>Price</p>
+            <input type="text" class="w-full bg-white border border-gray-400 rounded-md px-1 py-2">
+            <p>Rating</p>
+            <input type="text" class="w-full bg-white border border-gray-400 rounded-md px-1 py-2">
+            <p>Image URL</p>
+            <input type="text" class="w-full bg-white border border-gray-400 rounded-md px-1 py-2">
+            <p>Preview</p>
+            <div>
+                <button type="submit" class="px-4 py-2 bg-blue-500 rounded-md text-white font-medium hover:bg-blue-600 cursor-pointer">Save</button>
+                <button type="submit" class="px-4 py-2 bg-yellow-400 rounded-md font-medium hover:bg-yellow-500 cursor-pointer">Reset</button>
+            </div>
+        </form>
+    </div>
 
     <include id='footer' src="../../components/footer/footer-component.html"></include>
 

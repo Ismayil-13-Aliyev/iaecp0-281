@@ -9,7 +9,113 @@
 <body>
     <include id='header' src="../../components/header/header-component.html"></include>
   
-    <h2>Hello home</h2>
+    <div class="content p-6 h-screen flex justify-center">
+        <div class="w-full p-4 flex">
+            <div class="w-[250px] h-full p-2 space-y-2">
+                <h2 class="text-2xl font-bold">Store</h2>
+                <input type="text" placeholder="Search" class="rounded-md px-2 py-1 bg-gray-300" name="" id="">
+                <h2 class="text-xl font-medium pt-3">By category</h2>
+                <ul class="space-y-2">
+                    <li>
+                        <p class="font-medium text-lg rounded-xl">Asus</p>
+                    </li>
+                    <li>
+                        <p class="font-medium text-lg rounded-xl">Dell</p>
+                    </li>
+                    <li>
+                        <p class="font-medium text-lg rounded-xl">Toshiba</p>
+                    </li>
+                </ul>
+                <h2 class="text-xl font-medium pt-3">By rating</h2>
+                <ul>
+                    <li class="flex space-x-1">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                    </li>
+                    <li class="flex space-x-1">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                    </li>
+                    <li class="flex space-x-1">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                    </li>
+                    <li class="flex space-x-1">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                    </li>
+                    <li class="flex">
+                        <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                    </li>
+                </ul>
+            </div>
+            <div class="h-full flex-1 p-4 space-y-2">
+                <div class="w-full">
+                    <button class="rounded-lg bg-red-500 px-3 py-2 text-white hover:bg-red-600 ">All products</button>
+                </div>
+                <select class="px-3 py-2 rounded-lg bg-white border w-[200px]" name="" id="">
+                    <option value="">By name</option>
+                    <option value="">By price</option>
+                </select>
+                <div class="w-full flex space-x-1 p-3 flex-wrap justify-around">
+                    <div class="bg-gray-100 rounded-md py-4 w-1/4 flex items-center justify-center flex-col">
+                        <img class="rounded-md bg-gray-200 w-[200px] h-[200px]" src="../../public/images/pc.png" alt="">
+                        <div class="px-5 w-full">
+                            <p class="font-medium text-lg">Asus Rog 2020</p>
+                            <ul>
+                                <li class="flex space-x-2">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                </li>
+                            </ul>
+                            <button class="bg-orange-500 hover:bg-gray-900 rounded-lg text-white px-3 py-2 w-full mt-2">Add to basket</button>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-md py-4 w-1/4 flex items-center justify-center flex-col">
+                        <img class="rounded-md bg-gray-200 w-[200px] h-[200px]" src="../../public/images/pc.png" alt="">
+                        <div class="px-5 w-full">
+                            <p class="font-medium text-lg">Asus Rog 2020</p>
+                            <ul>
+                                <li class="flex space-x-2">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                </li>
+                            </ul>
+                            <button class="bg-orange-500 hover:bg-gray-900 rounded-lg text-white px-3 py-2 w-full mt-2">Add to basket</button>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-md py-4 w-1/4 flex items-center justify-center flex-col">
+                        <img class="rounded-md bg-gray-200 w-[200px] h-[200px]" src="../../public/images/pc.png" alt="">
+                        <div class="px-5 w-full">
+                            <p class="font-medium text-lg">Asus Rog 2020</p>
+                            <ul>
+                                <li class="flex space-x-2">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                    <img class="w-[30px] h-[30px]" src="../../public/svg/Star 8.svg" alt="star">
+                                </li>
+                            </ul>
+                            <button class="bg-orange-500 hover:bg-gray-900 rounded-lg text-white px-3 py-2 w-full mt-2">Add to basket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <include id='footer' src="../../components/footer/footer-component.html"></include>
 

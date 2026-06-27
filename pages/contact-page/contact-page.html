@@ -9,7 +9,52 @@
 <body>
     <include id='header' src="../../components/header/header-component.html"></include>
   
-    <h2>Hello home</h2>
+    <div class="content h-screen flex items-center justify-center p-4">
+        <div class="w-full h-full p-4">
+            <h2 class="text-4xl font-bold">Contact</h2>
+            <div class="w-full h-[630px] flex">
+                <div class="w-[30%] h-full items-center flex flex-col justify-center p-4">
+                    <div class="shadow p-4 py-20 space-y-3">
+                        <div class="flex items-center space-x-4">
+                            <img src="../../public/svg/icons-phone.svg" alt="">
+                            <span class="text-xl font-bold">Call To Us</span>
+                        </div>
+                        <p class="text-xl mt-4">We are available 24/7, 7 days a week.</p>
+                        <p class="text-xl">Phone: +8801611112222</p>
+                        <hr class="block my-4">
+                        <div class="flex items-center space-x-4">
+                            <img src="../../public/svg/icons-mail.svg" alt="">
+                            <span class="text-xl font-bold">Write To Us</span>
+                        </div>
+                        <p class="text-xl mt-4">Fill out our form and we will contact you within 24 hours.</p>
+                        <p class="text-xl">Emails: customer@exclusive.com</p>
+                        <p class="text-xl">Emails: support@exclusive.com</p>
+                    </div>
+                </div>
+                <div class="w-[70%] h-full flex items-center justify-around h-full">
+                    <div class="shadow p-4 w-[80%] h-[80%] space-y-4">
+                        <ul class="flex justify-between">
+                            <li>
+                                <input placeholder="Your Name" class="pl-3 pr-10 py-2 border bg-white" type="text">
+                            </li>
+                            <li>
+                                <input placeholder="Your Email" class="pl-3 pr-10 py-2 border bg-white" type="text">
+                            </li>
+                            <li>
+                                <input placeholder="Your Phone" class="pl-3 pr-10 py-2 border bg-white" type="text">
+                            </li>
+                        </ul>
+                        <textarea class="p-3 border bg-white border w-full h-[200px]" placeholder="Your Massage" cols="5" name="" id=""></textarea>
+                        <div class="w-full flex justify-end">
+                            <button class="bg-red-500 hover:bg-red-600 cursor-pointer px-8 py-3 text-white text-md font-medium rounded-md">
+                                Send Massage
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <include id='footer' src="../../components/footer/footer-component.html"></include>
 

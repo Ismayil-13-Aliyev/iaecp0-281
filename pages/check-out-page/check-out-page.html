@@ -9,7 +9,74 @@
 <body>
     <include id='header' src="../../components/header/header-component.html"></include>
   
-    <h2>Hello home</h2>
+    <div class="content p-4 h-screen flex items-center justify-center">
+        <div class="w-full h-full flex">
+            <div class="h-full w-[50%] p-4">
+                <p class="text-xl mb-2">First name</p>
+                <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                <p class="text-xl mb-2">Last name</p>
+                <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                <p class="text-xl mb-2">State</p>
+                <select class="bg-white border w-full rounded-lg px-3 py-2" name="" id="">
+                    <option value="">Azerbaijan</option>
+                    <option value="">Russia</option>
+                    <option value="">USA</option>
+                    <option value="">England</option>
+                </select>
+                <p class="text-xl mb-2">City</p>
+                <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                <p class="text-xl mb-2">Address</p>
+                <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                <p class="text-xl mb-2">Zip</p>
+                <input class="bg-white border w-[200px] rounded-lg px-3 py-2" type="text" name="" id="">
+                <p class="text-xl mb-2">Tel</p>
+                <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                <p class="text-xl mb-2">Email</p>
+                <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                <div class="flex items-center py-2 space-x-1">
+                    <input class="w-[15px] h-[15px]" type="checkbox" name="" id="">
+                    <span>Agree to terms and conditions</span>
+                </div>
+            </div>
+            <div class="h-full w-[50%] p-4 space-y-2">
+                <img class="w-full" src="../../public/images/Cards.png" alt="">
+                <p class="text-xl mb-2">Card number</p>
+                <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                <div class="flex space-x-1">
+                    <div>
+                        <p class="text-xl mb-2">Expiration(MM)</p>
+                        <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                    </div>
+                    <div>
+                        <p class="text-xl mb-2">Expiration(YY)</p>
+                        <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                    </div>
+                    <div>
+                        <p class="text-xl mb-2">Card security code</p>
+                        <input class="bg-white border w-full rounded-lg px-3 py-2" type="text" name="" id="">
+                    </div>
+                </div>
+                <p class="flex justify-between text-xl">
+                    <span>Subtotal</span>
+                    <span>186.99$</span>
+                </p>
+                <hr>
+                <p class="flex justify-between text-xl">
+                    <span>Shiping</span>
+                    <span>Free</span>
+                </p>
+                <hr>
+                <p class="flex justify-between text-xl">
+                    <span>Total</span>
+                    <span>186.99$</span>
+                </p>
+                <hr>
+                <div class="w-full flex justify-end">
+                    <button class="bg-red-500 hover:bg-red-600 text-white rounded-md px-4 py-3 mt-2 w-[170px] font-medium text-md">Place order</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <include id='footer' src="../../components/footer/footer-component.html"></include>
 
